@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo img {
+  display: block;
+  width: 150px;
+  height: 150px; 
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.nav input {
+  margin-right: 20px; /* Расстояние между полем поиска и ссылками */
+  padding: 5px;
+  font-size: 16px;
+}
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
